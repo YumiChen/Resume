@@ -148,7 +148,7 @@ ul li {
   margin: 0.2em 0;
 }
 ul li::before {
-  content: "+ ";
+  content: "* ";
   color: tomato;
   font-weight: bold;
 }
@@ -159,9 +159,9 @@ ul li span {
   border-radius: 0.3em;
   padding: 0.13em 0.5em;
 }
-ul li span:hover {
+/* ul li span:hover {
   background-color: #11caff;
-}
+} */
 ul li p {
   display: inline-block;
 }
